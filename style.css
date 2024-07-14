@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  box-shadow: 3px 5px 10px #000;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 5px auto;
+  border: 2px solid none;
+  font-size: 35px;
+  background-color: #fff;
+  transition: all 0.05s;
+}
+
+.key-animation {
+  transform: scale(1.5);
+}
